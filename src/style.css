@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  overflow: hidden;
+  user-select: none;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #13f, #18f, #1ff);
+}
+h2 {
+  position: absolute;
+  font-size: 10vw;
+  color: #eee;
+  text-align: center;
+  line-height: 2em;
+}
+h2 span {
+  font-weight: 800;
+  font-size: 2em;
+}
